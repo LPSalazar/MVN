@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /home/ec2-user/PruebaMvn
+
+hooks:
+   BeforeInstall:
+   
+   AfterInstall:
+   - location: scripts/mvnContruir.sh
